@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.head {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color: white;
+    background-image: linear-gradient(to right, blue , black);
+    height: 5rem;
+}
+
+#search {
+    height: 2rem;
+}
+
+#left-side {
+    display: flex;
+    position: absolute;
+    height: 9.5rem;
+    flex-direction: column;
+    margin-left: .5rem;
+    border-bottom: 3px solid grey;
+}
+
+
+#submitBtn {
+    margin-top: .5rem;
+    background-color: blue;
+    color: white;
+    border-radius: 3px;
+    padding-top: .3rem;
+    padding-bottom: .3rem;
+}
+
