@@ -13,15 +13,56 @@
         <h1>Weather Dashboard</h1>
     </header> 
 
-    <main>
-        <div id="left-side">
-            <h2 id="search-title">
-                Search for a City:
-            </h2>
-            <input type="text" id="search" name="search" placeholder="Chicago">
-            <button id="submitBtn" type="button">Search</button>
-        </div>
+    <main class="container">
 
+        <aside id="left-side">
+            <div id="search-section">
+                <h2 id="search-title">
+                    Search for a City:
+                </h2>
+                <input type="text" id="search" name="search" placeholder="Chicago">
+                <button id="submitBtn" type="button">Search</button>
+            </div>
+
+            <div id="quick-access-links">
+                <button type="button" class="favorites">Chicago</button>
+                <button type="button" class="favorites">New York</button>
+                <button type="button" class="favorites">Atlanta</button>
+                <button type="button" class="favorites">Boston</button>
+                <button type="button" class="favorites">Miami</button>
+                <button type="button" class="favorites">Dallas</button>
+                <button type="button" class="favorites">Austin</button>
+                <button type="button" class="favorites">Seattle</button>
+            </div>
+        </aside>
+
+        <section id="main-section">
+
+            <div id="city-selected">
+                <h2  id="city-header" class="city-displayed">Atlanta (3/30/2021)</h2>
+
+                <p class="city-displayed">Temp: 74.0 F</p>
+                <p class="city-displayed">Wind: 6.67 MPH</p>
+                <p class="city-displayed">Humidity: 46 %</p>
+                <p class="city-displayed">UV Index: .45 </p>
+            </div>
+
+            <div id="forecast-section">
+                <h3 id="city-forecast">5-Day Forecast: </h3>
+
+                <div id="card-section">
+                    <div class="cards" id="card-one"></div>
+                    <div class="cards" id="card-two"></div>
+                    <div class="cards" id="card-three"></div>
+                    <div class="cards" id="card-four"></div>
+                    <div class="cards" id="card-five"></div>
+                </div>
+
+            </div>
+
+        </section>
+
+        
 
     </main>
 </body>
