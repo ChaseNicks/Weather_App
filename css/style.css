@@ -30,8 +30,14 @@ body {
     height: 2rem;
 }
 
-#search-title {
-    margin-top: 2px;
+.city-form{
+    display: flex;
+    flex-direction: column;
+}
+
+.form-lable {
+    font-size: 1.5em;
+    font-weight: bolder;
 }
 
 #search-section {
@@ -84,9 +90,9 @@ body {
 }
 
 .city-displayed {
-    height: fit-content;
     margin-left: .2rem;
 }
+
 #city-header {
     margin-top: 2px;
 }
@@ -98,7 +104,6 @@ body {
 #card-section {
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
     justify-content: space-between;
 }
 
