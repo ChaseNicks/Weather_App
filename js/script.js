@@ -123,7 +123,7 @@ function getSearchHistory() {
     var searchHistory = JSON.parse(localStorage.getItem("searches"));
     if (!searchHistory) {
 
-        searchHistory = ["searches"];
+        searchHistory = ["Chicago"];
         localStorage.setItem("searches", JSON.stringify(searchHistory));
         return searchHistory;
     } else {
