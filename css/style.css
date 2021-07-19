@@ -4,10 +4,14 @@ body {
     font-family: sans-serif;
 }
 
+button:hover {
+    cursor: pointer;
+}
 .head {
     width: 100%;
     display: flex;
     justify-content: center;
+    align-items: center;
     color: white;
     background-image: linear-gradient(to right, blue , black);
     height: 5rem;
@@ -71,7 +75,7 @@ body {
     margin-bottom: 1rem;
     border-radius: 2px;
     border: none;
-    font-weight: bolder;
+    font-size: 1.1em;
     padding: .3rem .3rem .3rem .3rem;
     background-color: rgb(167, 167, 167);
 }
@@ -107,12 +111,18 @@ body {
     justify-content: space-between;
 }
 
-.cards {
-    background-color: rgb(47, 47, 97);
-    height: 12rem;
-    width: 9rem;
-    margin-right: .7rem;
+h5 {
+    font-size: 1.1em;
 }
 
-
-
+.cards {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(47, 47, 97);
+    color: white;
+    font-size: .8em;
+    text-align: center;
+    height: 13rem;
+    width: 8rem;
+    margin-right: .3rem;
+}
