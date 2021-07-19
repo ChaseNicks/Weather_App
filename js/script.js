@@ -41,7 +41,7 @@ async function loadWeather(cityName) {
 
     }
 
-    loadPreviousSearches();
+    pullRecentSearchs();
 }
 
 function saveSearchTerm(searchTerm) {
