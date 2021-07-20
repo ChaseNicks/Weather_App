@@ -1,7 +1,7 @@
 # Weather_App
 
 
-# Descrition
+# Description
 
 Weather dashboard that allows users to input a city name and see current weather along with a 5 day forecast. All recent searches are saved under searchbar and will populate page with data when clicked on for quick access to users when wanting to go back to view a prior searched city.
 
